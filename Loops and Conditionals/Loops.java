@@ -9,13 +9,21 @@ public class Loops {
 //        }
 
         // Print something upto n
-        Scanner input = new Scanner(System.in);
-        int n= input.nextInt();
+//        Scanner input = new Scanner(System.in);
+//        int n= input.nextInt();
+//
+//        for (int num = 1; num <= n; num++) {
+////            System.out.print(num + " ");
+//            System.out.println("Hello world");
+//        }
 
-        for (int num = 1; num <= n; num++) {
-//            System.out.print(num + " ");
-            System.out.println("Hello world");
+        // While loops
+
+        int num = 1;
+        while(num <=5) {
+            System.out.println(num);
+            num++;
         }
-
+        
     }
 }
