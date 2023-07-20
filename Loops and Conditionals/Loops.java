@@ -24,6 +24,14 @@ public class Loops {
             System.out.println(num);
             num++;
         }
+
+        // Do While loop
+
+        int n = 1;
+        do {
+            System.out.println(n);
+            n++;
+        } while (n <= 5);
         
     }
 }
